@@ -24,7 +24,7 @@
     <preference name="android-minSdkVersion" value="7" />
     <preference name="android-installLocation" value="auto" />
 	<preference name="errorURL" value="file:///android_asset/www/error.html" />
-	<preference name="backgroundColor" value="0xff80a0ff" />
+	<preference name="backgroundColor" value="0xffe0e0ff" />
     <gap:plugin name="org.apache.cordova.device-orientation" />
     <gap:plugin name="org.apache.cordova.inappbrowser" />
     <icon src="kalender.png" />
