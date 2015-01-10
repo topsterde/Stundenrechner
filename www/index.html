@@ -5,7 +5,14 @@
     </head>
     <body bgcolor="#80A0FF">
 		<script type="text/javascript">
-		window.location.href = "http://www.topster.de/xa/kalender/stundenrechner.php"
+		if (navigator.network != null && navigator.network.connection.type == Connection.NONE) 
+		{
+			window.location="error.html";
+		} 
+		else 
+		{
+			window.location.href = "http://www.topster.de/xa/kalender/stundenrechner.php";
+		}
 		</script>
     </body>
 </html>
